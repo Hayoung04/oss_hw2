@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      #body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #input {
+        display: flex;
+        align-items: center;
+      }
+
+      #input_append {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 300px;
+        height: 30px;
+        margin-right: 10px;
+        padding-left: 10px;
+      }
+
+      .button1,
+      .button2 {
+        border: none;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        font-weight: bold;
+      }
+
+      .button1 {
+        background-color: #6699cc;
+        margin-right: 5px;
+      }
+
+      .button2 {
+        background-color: #ff6666;
+      }
+
+      #ul_append {
+        min-height: 20px;
+      }
+
+      #all {
+        width: 480px;
+        padding: 10px 30px 10px 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #ffffcc;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div id="all">
+      <h1>Dynamic Web Page</h1>
+      <div id="input">
+        <input type="text" id="input_append" />
+        <button onclick="listener_append()" class="button1">추가</button>
+        <button onclick="delete_all()" class="button2">삭제</button>
+      </div>
+      <ul id="ul_append"></ul>
+    </div>
+    <script>
+      function listener_append() {
+        let ul_append = document.getElementById("ul_append");
+        let input_append = document.getElementById("input_append").value;
+
+        if (input_append === "" || input_append == "undefined") {
+          return false;
+        }
+        let li = document.createElement("li");
+        li.setAttribute("onclick", "listener_remove(this)");
+        li.innerText = input_append;
+
+        ul_append.appendChild(li);
+
+        document.getElementById("input_append").value = "";
+      }
+
+      function listener_remove(obj) {
+        obj.remove();
+      }
+
+      function delete_all() {
+        let ul_append = document.getElementById("ul_append");
+        ul_append.innerHTML = "";
+        document.getElementById("input_append").value = "";
+      }
+    </script>
+  </body>
+</html>
