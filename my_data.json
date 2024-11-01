@@ -103,6 +103,14 @@
       "grade": "Freshman",
       "gender": "Female",
       "major": "History"
+    },
+    {
+      "name": "양귀자",
+      "age": "23",
+      "grade": "Sophomore",
+      "gender": "Female",
+      "major": "Literature",
+      "id": "fa33"
     }
   ]
 }
