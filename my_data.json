@@ -1,0 +1,108 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "하영",
+      "age": 21,
+      "grade": "Freshman",
+      "gender": "Female",
+      "major": "Computer Science"
+    },
+    {
+      "id": "2",
+      "name": "하경",
+      "age": 18,
+      "grade": "Freshman",
+      "gender": "Male",
+      "major": "Biology"
+    },
+    {
+      "id": "3",
+      "name": "종혜",
+      "age": 24,
+      "grade": "Senior",
+      "gender": "Male",
+      "major": "Physics"
+    },
+    {
+      "id": "4",
+      "name": "하솔",
+      "age": 24,
+      "grade": "Freshman",
+      "gender": "Female",
+      "major": "Computer Science"
+    },
+    {
+      "id": "5",
+      "name": "진솔",
+      "age": 22,
+      "grade": "sophomore",
+      "gender": "Female",
+      "major": "History"
+    },
+    {
+      "id": "6",
+      "name": "수현",
+      "age": 25,
+      "grade": "senior",
+      "gender": "Female",
+      "major": "psychology"
+    },
+    {
+      "id": "7",
+      "name": "예빈",
+      "age": 22,
+      "grade": "Freshman",
+      "gender": "Female",
+      "major": "History"
+    },
+    {
+      "id": "8",
+      "name": "예지",
+      "age": 25,
+      "grade": "Senior",
+      "gender": "Female",
+      "major": "psychology"
+    },
+    {
+      "id": "9",
+      "name": "이은",
+      "age": 21,
+      "grade": "Senior",
+      "gender": "Female",
+      "major": "Engineering"
+    },
+    {
+      "id": "10",
+      "name": "혜림",
+      "age": 21,
+      "grade": "Junior",
+      "gender": "Female",
+      "major": "Art"
+    },
+    {
+      "id": "11",
+      "name": "시은",
+      "age": 17,
+      "grade": "Sophomore",
+      "gender": "Female",
+      "major": "History"
+    },
+    {
+      "name": "준표",
+      "age": "26",
+      "grade": "Senior",
+      "gender": "Male",
+      "major": "Science",
+      "id": "d489"
+    },
+    {
+      "id": "d8f3",
+      "name": "정순",
+      "age": "21",
+      "grade": "Freshman",
+      "gender": "Female",
+      "major": "History"
+    }
+  ]
+}
